@@ -5,7 +5,7 @@ xfce + archlinux
 ![confffhome](https://github.com/user-attachments/assets/b8436da7-f753-451d-b742-23fdc0479861)
 
 > 681 packages... 😞
-> so bloated... and yes spotify is proprietary 😭
+> so bloated... 😭
 
 ```bash
 set -g mouse
