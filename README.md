@@ -15,7 +15,8 @@ bind-key C-a send-prefix
 
 set -g status-bg "colour65"
 set -g status-fg "colour232"
-#set -g status-right "%l:%M %p"    # time format
+# time format
+# set -g status-right "%l:%M %p" 
 
 set -g history-limit 20000
 
@@ -91,7 +92,8 @@ NC='\[\033[0m\]' # resets color
 # export PS1="\342\232\241${GREEN}\u${NC}\360\237\220\247\360\237\232\251${NC}\W$ "
 
 export PS1="${GREENY}\u\360\237\220\247${NC}${REDY}=>${NC}${RED}\W$\[\033[0m\] "
-# export LS_COLORS='di=0;34'   # Sets directories to something
+# Sets directories to something
+# export LS_COLORS='di=0;34'  
 export LS_COLORS='di=1;38'
 PATH="$HOME/bin:$PATH"
 ```
