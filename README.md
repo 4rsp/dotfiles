@@ -1,6 +1,6 @@
 # dotfiles
 
-xfce + archlinux ...
+xfce + archlinux
 
 ![confffhome](https://github.com/user-attachments/assets/b8436da7-f753-451d-b742-23fdc0479861)
 
