@@ -8,35 +8,38 @@ xfce + archlinux
 > over 680 packages... 😞
 > so bloated ik... 😭
 
-```bash
+```conf
 set -g mouse
 unbind-key C-b
 set -g prefix C-a
 bind-key C-a send-prefix
 
-set -g status-bg "colour65"
-set -g status-fg "colour232"
-# time format
-# set -g status-right "%l:%M %p" 
+set -g history-limit 10000
 
-set -g history-limit 20000
+# change while in tmux
+# it also locks mouse
+# uncomment it while you conf 
+# bind r source-file ~/.tmux.conf
 
 # start numbering at 1
 set -g base-index 1
 set -g pane-base-index 1
 
-set -g status-right-style 'fg=colour52 bg=colour9'
-set -g status-right '%Y-%m-%d %H:%M '
+set -g status-bg "colour16"
+set -g status-fg "colour218"
+# set -g status-right "%l:%M %p"    # time format
+
+set -g status-right-style 'fg=colour15 bg=colour16'
+set -g status-right ' %Y-%m-%d %H:%M '
 set -g status-right-length 50
 
 set -g status-left ''
 set -g status-left-length 10
 
-set -g pane-border-style fg="colour66"
-set -g pane-active-border-style fg="colour9"
+set -g pane-border-style fg="colour233"
+set -g pane-active-border-style fg="colour218"
 
-# current window background + foreground colors
-set-window-option -g window-status-current-style "bg=colour9,fg=colour52"    
+set-window-option -g window-status-current-style "bg=colour233,fg=colour231"    # current window background + foreground colors
 
 # vim-like pane resizing  
 bind -r C-k resize-pane -U
@@ -60,6 +63,8 @@ unbind C-Up
 unbind C-Down 
 unbind C-Left 
 unbind C-Right
+
+
 ```
 > tmux config...
 
