@@ -5,8 +5,8 @@ xfce + archlinux
 ![confhome](https://github.com/user-attachments/assets/586690fd-0f0d-47f1-a07c-462c6c5884e7)
 
 
-> over 680 packages... 😞
-> so bloated ik... 😭
+> over 680 packages... 😞 
+> so bloated ik... 😭 (update: 615)
 
 ```conf
 set -g mouse
