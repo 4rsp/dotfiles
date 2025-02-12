@@ -2,12 +2,6 @@
 
 xfce + archlinux
 
-![confhome](https://github.com/user-attachments/assets/586690fd-0f0d-47f1-a07c-462c6c5884e7)
-
-
-> over 680 packages... 
-> so bloated ik... 😭 (update: 615)
-
 ```conf
 set -g mouse
 unbind-key C-b
@@ -66,7 +60,7 @@ unbind C-Right
 
 
 ```
-> tmux config...
+> tmux config
 
 ```bash
 for i in {0..255}; do
@@ -103,4 +97,4 @@ export PS1="${GREENY}\u\360\237\220\247${NC}${REDY}=>${NC}${RED}\W$\[\033[0m\] "
 export LS_COLORS='di=1;38'
 PATH="$HOME/bin:$PATH"
 ```
-> bash config...
+> bash config
